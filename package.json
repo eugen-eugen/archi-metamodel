@@ -1,0 +1,31 @@
+{
+  "name": "@eugen-eugen/archi-metamodel",
+  "version": "1.0.0",
+  "description": "jArchi meta-model library: extract and match ArchiMate meta-models (allowed relationships, specialization inheritance, formatting) from Archi views",
+  "main": "src/metamodel.js",
+  "files": [
+    "src/**/*.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "prepublishOnly": "echo \"No build step; publishing source.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugen-eugen/archi-metamodel.git"
+  },
+  "keywords": [
+    "archi",
+    "archimate",
+    "jArchi",
+    "metamodel",
+    "meta-model"
+  ],
+  "author": "Yevgen Moldawski",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
+  }
+}
