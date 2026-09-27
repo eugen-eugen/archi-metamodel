@@ -9,6 +9,7 @@
     "LICENSE"
   ],
   "scripts": {
+    "docs": "jsdoc -c jsdoc.json",
     "prepublishOnly": "echo \"No build step; publishing source.\""
   },
   "repository": {
@@ -24,6 +25,10 @@
   ],
   "author": "Yevgen Moldawski",
   "license": "MIT",
+  "devDependencies": {
+    "clean-jsdoc-theme": "^4.3.0",
+    "jsdoc": "^4.0.2"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
     "access": "public"

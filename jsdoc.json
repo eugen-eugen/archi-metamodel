@@ -1,0 +1,24 @@
+{
+  "source": {
+    "include": [ "src", "README.md" ]
+  },
+  "opts": {
+    "destination": "docs",
+    "recurse": true,
+    "readme": "README.md",
+    "template": "node_modules/clean-jsdoc-theme",
+    "theme_opts": {
+      "default_theme": "dark",
+      "homepageTitle": "archi-metamodel",
+      "title": "@eugen-eugen/archi-metamodel",
+      "menu": [
+        {
+          "title": "GitHub",
+          "link": "https://github.com/eugen-eugen/archi-metamodel",
+          "target": "_blank"
+        }
+      ]
+    }
+  },
+  "plugins": [ "plugins/markdown" ]
+}
